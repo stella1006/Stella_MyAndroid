@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filename" 
+        />
+    
+     <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/filename" 
+        android:id="@+id/filename"
+        />
+     
+     <TextView
+        android:id="@+id/zhuangtai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/zhuangtai" 
+     
+        android:textSize="20dp"/>
+     
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/time" 
+         android:id="@+id/time"
+        android:textSize="20dp"/>
+     
+     <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        />
+     
+     
+     <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+    	
+         <Button
+             android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+             android:text="@string/play"
+             android:onClick="mediaplay"
+             android:id="@+id/play"
+             />
+         
+         <Button
+             android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+             android:text="@string/pause"
+             android:onClick="mediaplay"
+              android:id="@+id/pause"
+             />
+         
+         <Button
+             android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+             android:text="@string/reset"
+             android:onClick="mediaplay"
+              android:id="@+id/reset"
+             />
+         
+         <Button
+             android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+             android:text="@string/stop"
+             android:onClick="mediaplay"
+              android:id="@+id/stop"
+             />
+         <Button
+             android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+             android:text="@string/quit"
+             android:onClick="mediaplay"
+              android:id="@+id/quit"
+             />
+             
+     </LinearLayout>
+
+</LinearLayout>

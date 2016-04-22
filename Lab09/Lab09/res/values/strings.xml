@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab09</string>
+    <string name="hello">Hello World, Lab09Activity!</string>
+	<string name="shuru">请输入手机号:</string>
+	<string name="search">Search</string>
+	<string name="address">address</string>
+</resources>

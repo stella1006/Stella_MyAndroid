@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ex02</string>
+    <string name="hello">Hello World, Ex02Activity!</string>
+	<string name="identity">个人信息</string>
+	<string name="tip">提示</string>
+	<string name="male">男</string>
+	<string name="female">女</string>
+	<string name="number">学号</string>
+	<string name="name">姓名</string>
+	<string name="option">选择你的方向</string>
+	<string name="birthday">选择你的生日</string>
+	<string-array name="Spinner1">
+	    <item>计应</item>
+	    <item>通软</item>
+	    <item>数媒</item>
+	    <item>嵌软</item>
+	    <item>电政</item>
+	   
+	</string-array>
+</resources>

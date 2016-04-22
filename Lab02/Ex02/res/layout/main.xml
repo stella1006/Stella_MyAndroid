@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:gravity="center|center_horizontal"
+        android:textColor="@color/red" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/identity"
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/tip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Gallery
+            android:id="@+id/gallery1"
+            android:layout_width="134dp"
+            android:layout_height="127dp"
+            android:background="@drawable/avatar" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/namename1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:autoText="true"
+                android:capitalize="characters"
+                android:contentDescription="@string/name"
+                android:fadingEdge="horizontal"
+                android:filterTouchesWhenObscured="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:visibility="visible" android:hint="@string/name"/>
+
+            <EditText
+                android:id="@+id/number2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:autoText="true"
+                android:capitalize="characters"
+                android:contentDescription="@string/name"
+                android:fadingEdge="horizontal"
+                android:singleLine="true"
+                android:textColor="@color/black" android:hint="@string/number"/>
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+	        android:id="@+id/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/radioMale"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:gravity="left|center_vertical|center"
+                    android:text="@string/male"
+                    android:textColor="@color/black"
+                    android:textEditNoPasteWindowLayout="@color/red"
+                    android:textIsSelectable="true"
+                    android:transformPivotX="10dp"
+                    android:verticalScrollbarPosition="defaultPosition"
+                    android:visibility="visible" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioFemale"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical|center"
+                    android:text="@string/female"
+                    android:textColor="@color/black" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/option"
+        android:textColor="@color/black" />
+
+    <Spinner
+        android:id="@+id/Spinner01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Spinner1"
+        android:textColor="@color/black" >
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday"
+        android:textColor="@color/black" />
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="204dp"
+        android:textColor="@color/black"
+        android:calendarViewShown="false" />
+
+</LinearLayout>

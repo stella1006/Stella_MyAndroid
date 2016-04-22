@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab08</string>
+    <string name="hello">Hello World, Lab08Activity!</string>
+	<string name="add">添加</string>
+	<string name="listname">成员列表</string>
+	<string name="addname">添加新成员</string>
+	<string name="editname">修改成员资料</string>
+	<string name="name">姓名:</string>
+	<string name="number">号码:</string>
+	<string name="Yes">确定</string>
+	<string name="No">取消</string>
+</resources>
